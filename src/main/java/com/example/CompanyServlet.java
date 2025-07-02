@@ -17,7 +17,7 @@ public class CompanyServlet extends HttpServlet {
         out.println("</head><body class='bg-white'>");
 
         out.println("<div class='container mt-5'>");
-        out.println("<h1 class='text-center text-dark'>About Guruprasath Corporation</h1>");
+        out.println("<h1 class='text-center text-dark'>About Guruprasath group of companies</h1>");
         out.println("<p class='lead text-center'>We build innovative software solutions for businesses across the globe.</p>");
         out.println("<div class='text-center'><a href='/java-webapp/' class='btn btn-secondary'>Back to Home</a></div>");
         out.println("</div>");
