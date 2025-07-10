@@ -14,10 +14,10 @@ public class CompanyServlet extends HttpServlet {
         out.println("<html><head>");
         out.println("<title>About Us - Murphy</title>");
         out.println("<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'>");
-        out.println("</head><body class='bg-white'>");
+        out.println("</head><body class='bg-red'>");
 
         out.println("<div class='container mt-5'>");
-        out.println("<h1 class='text-center text-dark'>About Murphy group of companies</h1>");
+        out.println("<h1 class='text-center text-dark'>About Madurai group of companies</h1>");
         out.println("<p class='lead text-center'>We build innovative software solutions for businesses across the globe.</p>");
         out.println("<div class='text-center'><a href='/java-webapp/' class='btn btn-secondary'>Back to Home</a></div>");
         out.println("</div>");
