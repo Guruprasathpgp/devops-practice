@@ -12,12 +12,12 @@ public class CompanyServlet extends HttpServlet {
 
         out.println("<!DOCTYPE html>");
         out.println("<html><head>");
-        out.println("<title>About Us - Guru</title>");
+        out.println("<title>About Us - TEST RUN</title>");
         out.println("<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'>");
         out.println("</head><body class='bg-red'>");
 
         out.println("<div class='container mt-5'>");
-        out.println("<h1 class='text-center text-dark'>About Guru group of companies</h1>");
+        out.println("<h1 class='text-center text-dark'>About TEST RUN group of companies</h1>");
         out.println("<p class='lead text-center'>We build innovative software solutions for businesses across the globe.</p>");
         out.println("<div class='text-center'><a href='/java-webapp/' class='btn btn-secondary'>Back to Home</a></div>");
         out.println("</div>");
