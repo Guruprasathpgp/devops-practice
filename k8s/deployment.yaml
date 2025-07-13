@@ -17,5 +17,7 @@ spec:
       containers:
         - name: java-webapp
           image: guruprasathpgp/java-webapp:latest
+          imagePullPolicy: Always
+
           ports:
             - containerPort: 8080
